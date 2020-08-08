@@ -38,6 +38,7 @@ p {
   cursor: pointer;
   height: 210px;
   background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
 
   display: flex;
@@ -46,7 +47,8 @@ p {
   justify-content: center;
   text-align: center;
 
-  transition: all 0.5s ease-in;
+  
+  transition: all 0.15s ease-in;
 }
 
 .container > div:hover {
@@ -71,10 +73,10 @@ p {
 } */
 
 .bg1 {
-  background: url('cc1.png');
+  background: url('cc1.png') no-repeat center center fixed;
 }
 
 .bg2 {
-  background: url('cc2.png');
+  background: url('cc2.png') no-repeat center center fixed;
   color: #333;
 }
